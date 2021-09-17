@@ -35,7 +35,8 @@
           <td>
             <form action="/todo/update" method="post" name="content">
             @csrf
-            <input type="submit" name="" value="更新"></form>
+            <input type="text" name="content" value="{{$item->content}}">
+            <input type="submit" name="" value="更新" id=""></form>
           </td>
           <td>
             <form action="/todo/delete" method="post">

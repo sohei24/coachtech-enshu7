@@ -15,5 +15,5 @@ class Todo extends Model
         'content' => 'required'
     );
 
-    protected $table = 'todo';
+    protected $table = 'todos';
 }
