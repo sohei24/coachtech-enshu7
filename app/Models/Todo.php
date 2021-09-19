@@ -12,7 +12,7 @@ class Todo extends Model
     protected $fillable = ['id', 'content', 'created_at', 'updated_at'];
 
     public static $rules = array(
-        'content' => 'required'
+        'content' => 'required|max: 20',
     );
 
     protected $table = 'todos';

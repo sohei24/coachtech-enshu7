@@ -1,0 +1,96 @@
+body {
+    background-color: DarkSlateBlue;
+}
+
+.todos__container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.todos__sub-container {
+    padding: 20px;
+}
+
+.todos__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.adding-box {
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-size: 20px;
+}
+
+.adding-btn {
+    color: purple;
+    background-color: white;
+    float: right;
+    margin-right: 20px;
+    border: 2px solid purple;
+}
+
+.adding-btn:hover {
+    color: white;
+    background-color: purple;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.todos__table {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.todos__table--tr {
+    line-height: 50px;
+}
+
+.todos__table--created_at_items {
+    width: 25%;
+}
+
+.todos__table--task_items_content {
+    width: 80%;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-size: 16px;
+}
+
+.updating-btn {
+    color: orange;
+    background-color: white;
+    border: 2px solid orange;
+}
+
+.updating-btn:hover {
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.deleting-btn {
+    color: lime;
+    background-color: white;
+    border: 2px solid lime;
+}
+
+.deleting-btn:hover {
+    color: white;
+    background-color: lime;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn {
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+}
